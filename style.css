@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: linear-gradient(rgba(0, 138, 236, 0.78),rgba(0, 138, 236, 0.78)), url("")
+	fixed center center no-repeat;
+
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+/* Character Design */
+.characterStyle {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+}
+
+/* Game Items Design */ 
+.item {
+  height: 5rem;
+  width: 5rem;
+  z-index: -1;
+}
+
+/* Header Design */ 
+.header {
+  padding-top: 10%;
+  display: table;
+  margin: 0 auto;
+}
+
+/* Button Design */ 
+.btn {
+  float: left;
+  width:  6rem;
+  height: 6rem;
+
+  border-radius: 50%;
+  border: none;
+
+  color: white;
+  
+  background: linear-gradient(rgba(0, 138, 236, 0.78),rgba(0, 138, 236, 0.78)), url("")
+	fixed center center no-repeat;
+	background-size: cover;
+  box-shadow: 2px 2px black;
+}
+
+button:focus {
+  outline: none;
+}
+
+.infoBtnClass {
+  margin-left: 1rem;
+}
+
+/* Score Table Design */ 
+.scoreTableClass {
+  float: left;
+  margin-left: 2rem;
+  box-shadow: 2px 2px black;
+
+  border-radius: 3%;
+  padding: 1.7rem 2rem 2rem 2rem; 
+  color: white;
+
+  background: linear-gradient(rgba(0, 138, 236, 0.78),rgba(0, 138, 236, 0.78)), url("")
+	fixed center center no-repeat;
+	background-size: cover;
+}
